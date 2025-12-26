@@ -2,7 +2,7 @@
 
 int main() {                   //PRACTICAL 07: Q.no.2:- Hourglass of length 2n-1 //
     int n;
-    printf("Enter n: ");
+    printf("Enter n: ");      //Aishwarya Sharma, ERP-10122//
     scanf("%d", &n);
 
     // Upper half of hourglass
@@ -24,4 +24,19 @@ int main() {                   //PRACTICAL 07: Q.no.2:- Hourglass of length 2n-1
     }
 
     return 0;
-}
+} 
+//Output//
+// Enter n: 7
+// *************
+//  ***********
+//   *********
+//    *******
+//     *****
+//      ***
+//       *
+//      ***
+//     *****
+//    *******
+//   *********
+//  ***********
+// *************
