@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {                 //PRACTICAL 06: Q.no.3:- ATM Pin Authentication//
-    int pin, attempts = 0;
+    int pin, attempts = 0;   //Aishwarya Sharma, ERP-10122//
     const int correct_pin = 1234; 
 
     while(attempts < 3) {
@@ -15,7 +15,15 @@ int main() {                 //PRACTICAL 06: Q.no.3:- ATM Pin Authentication//
             attempts++;
             printf("Incorrect PIN. Attempts left: %d\n", 3 - attempts);
         }
-    }
+    } 
+    //Output//
+//Enter your 4-digit ATM PIN: 7896//
+//Incorrect PIN. Attempts left: 2//
+//Enter your 4-digit ATM PIN: 2711//
+//Incorrect PIN. Attempts left: 1//
+//Enter your 4-digit ATM PIN: 9087//
+//Incorrect PIN. Attempts left: 0//
+//Maximum attempts reached. ATM card blocked.//
 
     if(attempts == 3) {
         printf("Maximum attempts reached. ATM card blocked.\n");
