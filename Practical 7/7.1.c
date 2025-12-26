@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {         //PRACTICAL 07: Q.no.1:- Diamond of length 2n-1//
-    int n;
+    int n;           //Aishwarya Sharma, ERP-10122//
     printf("Enter n: ");
     scanf("%d", &n);
 
@@ -24,4 +24,15 @@ int main() {         //PRACTICAL 07: Q.no.1:- Diamond of length 2n-1//
     }
 
     return 0;
-}
+} 
+//Output//
+//Enter n: 5
+//     *
+//    ***
+//   *****
+//  *******
+// *********
+//  *******
+//   *****
+//    ***
+//     *
