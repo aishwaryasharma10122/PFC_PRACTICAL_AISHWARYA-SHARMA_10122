@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //  PRACTICAL 08:Q no.3 :-  Function to print right-angle triangle //
-void printTriangle(int n) {
+void printTriangle(int n) {     //Aishwarya Sharma, ERP-10122//
     for(int i = 1; i <= n; i++) {
         for(int j = 1; j <= i; j++) {
             printf("*");
@@ -18,4 +18,15 @@ int main() {
     printTriangle(n);
 
     return 0;
-}
+} 
+//Output//
+// Enter the height of the triangle: 8
+// *
+// **
+// ***
+// ****
+// *****
+// ******
+// *******
+// ********
+
