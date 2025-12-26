@@ -16,18 +16,18 @@ int main() {                 //PRACTICAL 06: Q.no.3:- ATM Pin Authentication//
             printf("Incorrect PIN. Attempts left: %d\n", 3 - attempts);
         }
     } 
-    //Output//
-//Enter your 4-digit ATM PIN: 7896//
-//Incorrect PIN. Attempts left: 2//
-//Enter your 4-digit ATM PIN: 2711//
-//Incorrect PIN. Attempts left: 1//
-//Enter your 4-digit ATM PIN: 9087//
-//Incorrect PIN. Attempts left: 0//
-//Maximum attempts reached. ATM card blocked.//
-
-    if(attempts == 3) {
+   if(attempts == 3) {
         printf("Maximum attempts reached. ATM card blocked.\n");
     }
 
     return 0;
-}
+} 
+//Output//
+//Enter your 4-digit ATM PIN: 2711//
+//Incorrect PIN. Attempts left: 2//
+//Enter your 4-digit ATM PIN: 7896//
+//Incorrect PIN. Attempts left: 1//
+//Enter your 4-digit ATM PIN: 7601//
+//Incorrect PIN. Attempts left: 0//
+//Maximum attempts reached. ATM card blocked.//
+
