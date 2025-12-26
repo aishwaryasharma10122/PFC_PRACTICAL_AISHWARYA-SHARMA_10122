@@ -18,5 +18,5 @@ int main() {            // PRACTICAL 06: Q no.2 :-Sum of even numbers using cont
     return 0;
 } 
 //Output//
-//Enter a positive number: 4//
-//Sum of even numbers from 1 to 4 = 6//
+//Enter a positive number: 4
+//Sum of even numbers from 1 to 4 = 6
